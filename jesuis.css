@@ -25,10 +25,12 @@
     background-color: rgb(4, 0, 255);
     color: white;
     border-radius: 25px;
+}
+.oui6{
     border: none;
 }
 .oui7{
     color: blue;
     background-color: white;
-    border-color: blue;
+    border: 0.5px solid blue;
 }
