@@ -1,0 +1,21 @@
+.shoes {
+    font-size: 25px;
+}
+.price{
+    color: rgb(0,118,0);;
+}
+.card{
+    background: rgb(255,216,20);
+border: none;
+border-radius: 20px;
+}
+.buy{
+    background-color: rgb(255,164,28);
+    border: none;
+    border-radius: 25px;
+}
+#flex{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
