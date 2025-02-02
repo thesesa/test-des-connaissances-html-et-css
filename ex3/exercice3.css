@@ -1,0 +1,104 @@
+/* exercice 1 */
+button{
+    cursor: pointer;
+}
+.request,
+.cart,
+.sign,
+.started,
+.down,
+.apply{
+    border : none;
+    min-height: 40px;
+    min-width: 100px;
+    color: white;
+}
+.cart,
+.apply {
+    border-radius: 25px;
+}
+.sign,
+.started,
+.down{
+    border-radius: 5px;
+}
+.request{
+    background-color: black;
+  
+}
+button:hover.request{
+    background-color: #0000007a;
+}
+.cart{
+    color: black;
+background-color: yellow;
+min-height: 30px;
+min-width: 100px;
+}
+button:hover.cart{
+    background-color: rgb(241, 241, 79);
+}
+.sign{
+background-color: green;
+}
+button:hover.sign{   
+     box-shadow: -4px 3px 17px 4px green;
+}
+.started{
+background-color: rgb(141, 7, 141);
+}
+.down{
+background-color: #979797;
+}
+button:hover.started,
+button:hover.down {
+    background-color: #ff00007a;
+    color: blue;
+}
+.apply{
+background-color: blue;
+}
+.save{
+    color: blue;
+background-color: white;
+border-color: blue;
+border-radius: 25px;
+}
+button:hover.apply,
+button:hover.save{
+    color: blue;
+    background-color: aqua;
+    border-color: rgb(255, 0, 157);
+}
+
+/* Exercice 2 */
+
+a:hover.amazon{
+    color: brown;
+}
+.shoes {
+    font-size: 25px;
+}
+.price{
+    color: rgb(0,118,0);;
+}
+.card{
+    background: rgb(255,216,20);
+border: none;
+border-radius: 20px;
+}
+.buy{
+    background-color: rgb(255,164,28);
+    border: none;
+    border-radius: 25px;
+}
+.card:hover,
+.buy:hover{
+    background: rgb(94, 39, 39);
+    color : white;
+}
+#flex{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
