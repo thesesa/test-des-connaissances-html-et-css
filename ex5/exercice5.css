@@ -1,0 +1,16 @@
+
+body {
+    min-height: 100vh;
+background: url(./img/corgi\ image.jpg) center/cover no-repeat ;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    margin: 10px;
+    height: 400px;
+}
+.jesaispas {
+   
+}
