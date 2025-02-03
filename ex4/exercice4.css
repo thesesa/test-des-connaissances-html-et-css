@@ -1,0 +1,22 @@
+
+.oswald-<uniquifier> {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-thin {
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .ouaip {
+    font-family: "Oswald", serif;
+    font-size: 1.5rem;
+
+  }
+  .ouaipp {
+font-family: "Kanit";
+  }
