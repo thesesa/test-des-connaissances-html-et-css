@@ -1,0 +1,123 @@
+
+body {
+    margin: 0 ;
+    min-height: 100vh;
+background: url(./img/corgi\ image.jpg) center/cover no-repeat ;
+}
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+ul.flex {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.texteACentrer {
+    margin: 50px;
+    color: red;
+}
+.texteACentrer:hover {
+        background-color: rgba(255, 255, 255, 0.301);
+        color: blue;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+img{
+    align-items: center;
+    width: 100%;
+}
+
+.invisible {
+    color: transparent;
+}
+#grid {
+    margin: 50px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% ;
+    min-height: 1000px;
+    grid-template-areas: 
+    "a b c d e"
+    "f g h i j"
+    "k l m n o"
+    "p q r s t";
+}
+.a {
+    grid-area: a;
+}
+.b {
+    grid-area: b;
+}
+.c {
+    grid-area: c;
+}
+.d {
+    grid-area: d;
+}
+.e {
+    grid-area: e;
+}
+.f {
+    grid-area: f;
+}
+.g {
+    grid-area: g;
+}
+.h {
+    grid-area: h;
+}
+.i {
+    grid-area: i;
+}
+.j {
+    grid-area: j;
+}
+.k {
+    grid-area: k;
+}
+.l {
+    grid-area: l;
+}
+.m {
+    grid-area: m;
+}
+.n {
+    grid-area: n;
+}
+.o {
+    grid-area: o;
+}
+.p {
+    grid-area: p;
+}
+.q {
+    grid-area: q;
+}
+.r {
+    grid-area: r;
+}
+.s {
+    grid-area: s;
+}
+.t {
+    grid-area: t;
+}
+
+.f:hover, .j:hover, .r:hover{
+background-color: royalblue;
+text-align: center;
+color: rgb(255, 0, 128);
+}
