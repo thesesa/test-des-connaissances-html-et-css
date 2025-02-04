@@ -1,4 +1,5 @@
 Début de l'exercice 5,
+
 Ajout d'un background et de photos.
 reste a faire :
 -  ajout de texte coté droit photo 1
